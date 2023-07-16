@@ -117,8 +117,8 @@ for(let genre of genres){
 }
 
 const handleOnGenreSelect=(event)=>{
-    const selectedGenre= event.target.value;
-    const arrOfSelectedgenre = getFilteredData();
+    selectedGenre= event.target.value;
+    let arrOfSelectedgenre = getFilteredData();
     moviesParentContainer.innerHTML="";
    createAllMovies(selectedGenre ? arrOfSelectedgenre : movies,moviesParentContainer,createElement);
 }
