@@ -1,5 +1,4 @@
-# shoppingMart
-# shoppingMart
+### Movie App
 This app let you to search movie with director, actor or any cast name.
 Generally, the  app is fetching data with movie rating, duration and beautiful movie posters.
 
